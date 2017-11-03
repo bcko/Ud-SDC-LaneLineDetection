@@ -1,13 +1,15 @@
-# Project Introduction
+# Project Description
 
-## Finding Lane Lines in a Video Stream
+## Project Introduction
+
+### Finding Lane Lines in a Video Stream
 
 [Project Instruction](https://youtu.be/LatP7XUPgIE)
 
-### Project Instructions
+#### Project Instructions
 To get started on the project, download or `git clone` [the project repository on GitHub](https://github.com/udacity/CarND-LaneLines-P1). You'll find the instructions in the README file. Click "Next" below to view information about setting up the project on your computer.
 
-# Starter Kit Installation
+## Starter Kit Installation
 In this term, you'll use Python 3 for programming quizzes, labs, and projects. The following will guide you through setting up the programming environment on your local machine.
 
 There are two ways to get up and running:
@@ -22,7 +24,7 @@ Follow the instructions in [this README](https://github.com/udacity/CarND-Term1-
 
 Here is a great link for learning more about [Anaconda and Jupyter Notebooks](https://classroom.udacity.com/courses/ud1111)
 
-# Run Some Code!
+## Run Some Code!
 Now that everything is installed, let's make sure it's working!
 
 1. Clone and navigate to the starter kit test repository.
@@ -45,8 +47,8 @@ docker run -it --rm -p 8888:8888 -v `pwd`:/src udacity/carnd-term1-starter-kit t
 ```
 3. Go to http://localhost:8888/notebooks/test.ipynb in your browser and run all the cells. Everything should execute without error.
 
-## Troubleshooting
-### ffmpeg
+### Troubleshooting
+#### ffmpeg
 **NOTE**: If you don't have `ffmpeg` installed on your computer you'll have to install it for `moviepy` to work. If this is the case you'll be prompted by an error in the notebook. You can easily install `ffmpeg` by running the following in a code cell in the notebook.
 
 ```python
@@ -56,7 +58,7 @@ imageio.plugins.ffmpeg.download()
 
 Once it's installed, `moviepy` should work.
 
-### Docker
+#### Docker
 To get the latest version of the [docker image](https://hub.docker.com/r/udacity/carnd-term1-starter-kit/), you may need to run:
 ```bash
 docker pull udacity/carnd-term1-starter-kit
@@ -64,7 +66,7 @@ docker pull udacity/carnd-term1-starter-kit
 
 Warning! The image is ~2GB!
 
-# Project Expectations
+## Project Expectations
 For each project in Term 1, keep in mind a few key elements:
 
 * rubric
@@ -72,7 +74,7 @@ For each project in Term 1, keep in mind a few key elements:
 * writeup
 * submission
 
-## Rubric
+### Rubric
 Each project comes with a rubric detailing the requirements for passing the project. Project reviewers will check your project against the rubric to make sure that it meets specifications.
 
 Before submitting your project, compare your submission against the rubric to make sure you've covered each rubric point.
@@ -82,7 +84,7 @@ Here is an example of a project rubric:
 ![Example of a project rubric](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/5894f8b9_screen-shot-2017-02-03-at-1.39.23-pm/screen-shot-2017-02-03-at-1.39.23-pm.png)
 Example of a project rubric
 
-## Code
+### Code
 Every project in the term includes code that you will write. For some projects we provide code templates, often in a Jupyter notebook. For other projects, there are no code templates.
 
 In either case, you'll need to submit your code files as part of the project. Each project has specific instructions about what files are required. Make sure that your code is commented and easy for the project reviewers to follow.
@@ -93,7 +95,7 @@ Because running the code can take anywhere from several minutes to a few hours, 
 
 Even if the project requires submission of the HTML output of your Jupyter notebook, please submit the original Jupyter notebook itself, as well.
 
-## Writeup
+### Writeup
 All of the projects in Term 1 require a writeup. The writeup is your chance to explain how you approached the project.
 
 It is also an opportunity to show your understanding of key concepts in the program.
@@ -104,7 +106,7 @@ Your writeup report should explain how you satisfied each requirement in the pro
 
 The writeups can be turned in either as Markdown files (.md) or PDF files.
 
-## Submission
+### Submission
 When submitting a project, you can either submit it as a link to a [GitHub repository](https://github.com/) or as a ZIP file. When submitting a GitHub repository, we advise creating a new repository, specific to the project you are submitting.
 
 GitHub repositories are a convenient way to organize your projects and display them to the world. A GitHub repository also has a README.md file that opens automatically when somebody visits your GitHub repository link.
